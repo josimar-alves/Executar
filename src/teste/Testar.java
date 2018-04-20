@@ -63,18 +63,18 @@ public class Testar {
 	@Test
 	public void teste01() throws TestLinkAPIException {
 		int n = 1;
-		sendResult(n == 1, "tc-1", "Falhou 01");
+		sendResult(n == 2, "tc-1", "Falhou 01");
 	}
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		sendResult(n == 2, "tc-2", "Falhou 02");
 	}
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		sendResult(n == 2, "tc-3", "Falhou 03");
 	}
 	

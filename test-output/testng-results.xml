@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9412" started-at="2018-04-20T20:51:12Z" finished-at="2018-04-20T20:51:21Z">
+  <suite name="Suite" duration-ms="9159" started-at="2018-04-20T20:52:14Z" finished-at="2018-04-20T20:52:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9412" started-at="2018-04-20T20:51:12Z" finished-at="2018-04-20T20:51:21Z">
+    <test name="Test" duration-ms="9159" started-at="2018-04-20T20:52:14Z" finished-at="2018-04-20T20:52:23Z">
       <class name="teste.Testar">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@66133adc]" name="setUp" is-config="true" duration-ms="5482" started-at="2018-04-20T17:51:12Z" finished-at="2018-04-20T17:51:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@66133adc]" name="setUp" is-config="true" duration-ms="5290" started-at="2018-04-20T17:52:14Z" finished-at="2018-04-20T17:52:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="teste01()[pri:0, instance:teste.Testar@66133adc]" name="teste01" duration-ms="1348" started-at="2018-04-20T17:51:17Z" finished-at="2018-04-20T17:51:18Z">
+        <test-method status="FAIL" signature="teste01()[pri:0, instance:teste.Testar@66133adc]" name="teste01" duration-ms="1303" started-at="2018-04-20T17:52:19Z" finished-at="2018-04-20T17:52:20Z">
           <exception class="testlink.api.java.client.TestLinkAPIException">
             <message>
               <![CDATA[
@@ -60,7 +60,7 @@ Result[0] = {code=3030, message=Test Case (name=Primeiro/id=4) is not associated
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teste01 -->
-        <test-method status="FAIL" signature="teste02()[pri:0, instance:teste.Testar@66133adc]" name="teste02" duration-ms="1300" started-at="2018-04-20T17:51:18Z" finished-at="2018-04-20T17:51:20Z">
+        <test-method status="FAIL" signature="teste02()[pri:0, instance:teste.Testar@66133adc]" name="teste02" duration-ms="1301" started-at="2018-04-20T17:52:20Z" finished-at="2018-04-20T17:52:22Z">
           <exception class="testlink.api.java.client.TestLinkAPIException">
             <message>
               <![CDATA[
@@ -109,7 +109,7 @@ Result[0] = {code=3030, message=Test Case (name=Segundo/id=7) is not associated 
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teste02 -->
-        <test-method status="FAIL" signature="teste03()[pri:0, instance:teste.Testar@66133adc]" name="teste03" duration-ms="1278" started-at="2018-04-20T17:51:20Z" finished-at="2018-04-20T17:51:21Z">
+        <test-method status="FAIL" signature="teste03()[pri:0, instance:teste.Testar@66133adc]" name="teste03" duration-ms="1260" started-at="2018-04-20T17:52:22Z" finished-at="2018-04-20T17:52:23Z">
           <exception class="testlink.api.java.client.TestLinkAPIException">
             <message>
               <![CDATA[
