@@ -26,37 +26,65 @@ public class Testar {
 		driver.get("http://www.google.com/");
 	}
 	
+//	@Test
+//	public void teste01() throws TestLinkAPIException {
+//		int n = 1;
+//		if (n == 1) {
+//			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+//		} else {
+//			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+//		}
+//		assertEquals(n, 1);
+//	}
+//	
+//	@Test
+//	public void teste02() throws TestLinkAPIException {
+//		int n = 1;
+//		
+//		try {
+//			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+//		} catch (AssertionError e) {
+//			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+//		}
+//		assertEquals(n, 1);
+//	}
+//	
+//	@Test
+//	public void teste03() throws TestLinkAPIException {
+//		int n = 1;
+//		if (n == 1) {
+//			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+//		} else {
+//			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+//		}
+//		assertEquals(n, 1);
+//	}
+	
 	@Test
 	public void teste01() throws TestLinkAPIException {
 		int n = 1;
-		if (n == 1) {
-			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
-		} else {
-			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
-		}
-		assertEquals(n, 1);
+		sendResult(n == 1, "tc-1", "Falhou 01");
 	}
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
 		int n = 1;
-		if (n == 1) {
-			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
-		} else {
-			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
-		}
-		assertEquals(n, 1);
+		sendResult(n == 2, "tc-2", "Falhou 02");
 	}
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
 		int n = 1;
-		if (n == 1) {
-			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+		sendResult(n == 2, "tc-3", "Falhou 03");
+	}
+	
+	public void sendResult(boolean result, String tcName, String tcDesciption) throws TestLinkAPIException {
+		if (result) {
+			TestLinkConnection.updateResults(tcName, tcDesciption, TestLinkAPIResults.TEST_PASSED);
 		} else {
-			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+			TestLinkConnection.updateResults(tcName, tcDesciption, TestLinkAPIResults.TEST_FAILED);
 		}
-		assertEquals(n, 1);
+		assertTrue(result);		
 	}
 		
 	
