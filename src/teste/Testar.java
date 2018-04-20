@@ -1,6 +1,7 @@
 package teste;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,46 +29,34 @@ public class Testar {
 	@Test
 	public void teste01() throws TestLinkAPIException {
 		int n = 1;
+		if (n == 1) {
+			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+		} else {
+			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+		}
 		assertEquals(n, 1);
-//		try {
-//			assertEquals(n, 1);
-//			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
-//			System.out.println("Passou 01");
-//		} catch (AssertionError e) {
-//			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
-//			System.out.println("Falhou 01");
-//			assertEquals(n, 2);
-//		}
 	}
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
 		int n = 2;
+		if (n == 1) {
+			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+		} else {
+			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+		}
 		assertEquals(n, 1);
-//		try {
-//			assertEquals(n, 2);
-//			TestLinkConnection.updateResults("tc-2", "Passou 02", TestLinkAPIResults.TEST_PASSED);
-//			System.out.println("Passou 02");
-//		} catch (AssertionError e) {
-//			TestLinkConnection.updateResults("tc-2", "Falhou 02", TestLinkAPIResults.TEST_FAILED);
-//			System.out.println("Falhou 02");
-//			assertEquals(n, 2);
-//		}
 	}
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
-		int n = 1;
+		int n = 2;
+		if (n == 1) {
+			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+		} else {
+			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+		}
 		assertEquals(n, 1);
-//		try {
-//			assertEquals(n, 2);
-//			TestLinkConnection.updateResults("tc-3", "Passou 03", TestLinkAPIResults.TEST_PASSED);
-//			System.out.println("Passou 03");
-//		} catch (AssertionError e) {
-//			TestLinkConnection.updateResults("tc-3", "Falhou 03", TestLinkAPIResults.TEST_FAILED);
-//			System.out.println("Falhou 03");
-//			assertEquals(n, 2);
-//		}
 	}
 		
 	
