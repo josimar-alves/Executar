@@ -45,7 +45,7 @@ public class Testar {
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
-		int n = 1;
+		int n = 2;
 		try {
 			assertEquals(n, 2);
 			TestLinkConnection.updateResults("tc-2", "Passou 02", TestLinkAPIResults.TEST_PASSED);
