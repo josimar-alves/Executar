@@ -5,6 +5,7 @@
     <classes>
       <class name="teste.Testar">
         <methods>
+          <include name="teste02"/>
           <include name="teste03"/>
           <include name="setUp"/>
         </methods>
