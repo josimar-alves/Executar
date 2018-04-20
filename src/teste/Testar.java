@@ -45,7 +45,7 @@ public class Testar {
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		try {
 			assertEquals(n, 2);
 			TestLinkConnection.updateResults("tc-2", "Passou 02", TestLinkAPIResults.TEST_PASSED);
@@ -56,7 +56,7 @@ public class Testar {
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		try {
 			assertEquals(n, 2);
 			TestLinkConnection.updateResults("tc-3", "Passou 03", TestLinkAPIResults.TEST_PASSED);

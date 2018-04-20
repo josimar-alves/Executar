@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59356" started-at="2018-04-20T13:31:05Z" finished-at="2018-04-20T13:32:04Z">
+  <suite name="Suite" duration-ms="9118" started-at="2018-04-20T17:47:45Z" finished-at="2018-04-20T17:47:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59356" started-at="2018-04-20T13:31:05Z" finished-at="2018-04-20T13:32:04Z">
+    <test name="Test" duration-ms="9118" started-at="2018-04-20T17:47:45Z" finished-at="2018-04-20T17:47:54Z">
       <class name="teste.Testar">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@66133adc]" name="setUp" is-config="true" duration-ms="4171" started-at="2018-04-20T10:31:05Z" finished-at="2018-04-20T10:31:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@66133adc]" name="setUp" is-config="true" duration-ms="5258" started-at="2018-04-20T14:47:45Z" finished-at="2018-04-20T14:47:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sarpcb10()[pri:0, instance:teste.Testar@66133adc]" name="sarpcb10" duration-ms="18617" started-at="2018-04-20T10:31:09Z" finished-at="2018-04-20T10:31:28Z">
+        <test-method status="PASS" signature="teste01()[pri:0, instance:teste.Testar@66133adc]" name="teste01" duration-ms="1359" started-at="2018-04-20T14:47:50Z" finished-at="2018-04-20T14:47:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sarpcb10 -->
-        <test-method status="PASS" signature="sarpcb8()[pri:0, instance:teste.Testar@66133adc]" name="sarpcb8" duration-ms="18244" started-at="2018-04-20T10:31:28Z" finished-at="2018-04-20T10:31:46Z">
+        </test-method> <!-- teste01 -->
+        <test-method status="PASS" signature="teste02()[pri:0, instance:teste.Testar@66133adc]" name="teste02" duration-ms="1245" started-at="2018-04-20T14:47:52Z" finished-at="2018-04-20T14:47:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sarpcb8 -->
-        <test-method status="PASS" signature="sarpcb9()[pri:0, instance:teste.Testar@66133adc]" name="sarpcb9" duration-ms="18310" started-at="2018-04-20T10:31:46Z" finished-at="2018-04-20T10:32:04Z">
+        </test-method> <!-- teste02 -->
+        <test-method status="PASS" signature="teste03()[pri:0, instance:teste.Testar@66133adc]" name="teste03" duration-ms="1252" started-at="2018-04-20T14:47:53Z" finished-at="2018-04-20T14:47:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sarpcb9 -->
+        </test-method> <!-- teste03 -->
       </class> <!-- teste.Testar -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
