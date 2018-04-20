@@ -29,33 +29,33 @@ public class Testar {
 	@Test
 	public void teste01() throws TestLinkAPIException {
 		int n = 1;
-//		if (n == 1) {
-//			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
-//		} else {
-//			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
-//		}
+		if (n == 1) {
+			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+		} else {
+			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+		}
 		assertEquals(n, 1);
 	}
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
 		int n = 2;
-//		if (n == 1) {
-//			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
-//		} else {
-//			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
-//		}
+		if (n == 1) {
+			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+		} else {
+			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+		}
 		assertEquals(n, 1);
 	}
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
 		int n = 2;
-//		if (n == 1) {
-//			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
-//		} else {
-//			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
-//		}
+		if (n == 1) {
+			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
+		} else {
+			TestLinkConnection.updateResults("tc-1", "Falhou 01", TestLinkAPIResults.TEST_FAILED);
+		}
 		assertEquals(n, 1);
 	}
 		

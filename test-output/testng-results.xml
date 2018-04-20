@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4605" started-at="2018-04-20T19:47:30Z" finished-at="2018-04-20T19:47:34Z">
+  <suite name="Default suite" duration-ms="3971" started-at="2018-04-20T19:51:20Z" finished-at="2018-04-20T19:51:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4605" started-at="2018-04-20T19:47:30Z" finished-at="2018-04-20T19:47:34Z">
+    <test name="Default test" duration-ms="3971" started-at="2018-04-20T19:51:20Z" finished-at="2018-04-20T19:51:24Z">
       <class name="teste.Testar">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@66133adc]" name="setUp" is-config="true" duration-ms="4592" started-at="2018-04-20T16:47:30Z" finished-at="2018-04-20T16:47:34Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@66d2e7d9]" name="setUp" is-config="true" duration-ms="3954" started-at="2018-04-20T16:51:20Z" finished-at="2018-04-20T16:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="teste01()[pri:0, instance:teste.Testar@66133adc]" name="teste01" duration-ms="1" started-at="2018-04-20T16:47:34Z" finished-at="2018-04-20T16:47:34Z">
+        <test-method status="PASS" signature="teste01()[pri:0, instance:teste.Testar@66d2e7d9]" name="teste01" duration-ms="4" started-at="2018-04-20T16:51:24Z" finished-at="2018-04-20T16:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teste01 -->
-        <test-method status="FAIL" signature="teste02()[pri:0, instance:teste.Testar@66133adc]" name="teste02" duration-ms="0" started-at="2018-04-20T16:47:34Z" finished-at="2018-04-20T16:47:34Z">
+        <test-method status="FAIL" signature="teste02()[pri:0, instance:teste.Testar@66d2e7d9]" name="teste02" duration-ms="2" started-at="2018-04-20T16:51:24Z" finished-at="2018-04-20T16:51:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [2]]]>
@@ -49,15 +49,16 @@
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
 	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.TestNG.privateMain(TestNG.java:1339)
-	at org.testng.TestNG.main(TestNG.java:1308)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teste02 -->
-        <test-method status="FAIL" signature="teste03()[pri:0, instance:teste.Testar@66133adc]" name="teste03" duration-ms="0" started-at="2018-04-20T16:47:34Z" finished-at="2018-04-20T16:47:34Z">
+        <test-method status="FAIL" signature="teste03()[pri:0, instance:teste.Testar@66d2e7d9]" name="teste03" duration-ms="1" started-at="2018-04-20T16:51:24Z" finished-at="2018-04-20T16:51:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [2]]]>
@@ -91,8 +92,9 @@
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
 	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.TestNG.privateMain(TestNG.java:1339)
-	at org.testng.TestNG.main(TestNG.java:1308)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -100,6 +102,6 @@
           </reporter-output>
         </test-method> <!-- teste03 -->
       </class> <!-- teste.Testar -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
