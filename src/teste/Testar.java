@@ -29,7 +29,7 @@ public class Testar {
 	public void teste01() throws TestLinkAPIException {
 		int n = 1;
 		try {
-			assertEquals(n, 2);
+			assertEquals(n, 1);
 			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
 			System.out.println("Passou 01");
 		} catch (AssertionError e) {
