@@ -9,6 +9,6 @@
 	<classpathentry kind="lib" path="C:/Users/Josimar/Documents/arquivos/xmlrpc-common-3.1.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Josimar/Documents/arquivos/ws-commons-util-1.0.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Josimar/Documents/arquivos/xml-apis-1.0.b2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Josimar/Documents/arquivos/testng-6.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Josimar/Documents/arquivos/testng-6.9.4.jar" sourcepath="C:/Users/Josimar/.m2/repository/org/testng/testng/6.9.4/testng-6.9.4-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
