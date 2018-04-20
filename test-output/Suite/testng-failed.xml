@@ -7,6 +7,7 @@
         <methods>
           <include name="teste02"/>
           <include name="teste03"/>
+          <include name="teste01"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- teste.Testar -->

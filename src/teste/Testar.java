@@ -74,7 +74,7 @@ public class Testar {
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
-		int n = 1;
+		int n = 2;
 		sendResult(n == 2, "tc-3", "Falhou 03");
 	}
 	
