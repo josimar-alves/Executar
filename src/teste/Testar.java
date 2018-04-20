@@ -39,7 +39,7 @@ public class Testar {
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		if (n == 1) {
 			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
 		} else {
@@ -50,7 +50,7 @@ public class Testar {
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		if (n == 1) {
 			TestLinkConnection.updateResults("tc-1", "Passou 01", TestLinkAPIResults.TEST_PASSED);
 		} else {
