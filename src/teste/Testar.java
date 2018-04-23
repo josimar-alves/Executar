@@ -2,17 +2,16 @@ package teste;
 
 import static org.testng.Assert.assertTrue;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
 //import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
 //import org.testng.annotations.BeforeTest;
 //import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import testlink.api.java.client.TestLinkAPIException;
 import testlink.api.java.client.TestLinkAPIResults;
@@ -22,7 +21,7 @@ public class Testar {
 	private WebDriver driver;
 	private WebDriverWait wait;
 	
-	@Before
+	@BeforeTest
 	public void setUp() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
 		
@@ -31,7 +30,7 @@ public class Testar {
 		driver.get("http://www.google.com/");
 	}
 	
-	@After
+	@AfterTest
 	public void after() {
 		driver.close();
 	}
