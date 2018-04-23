@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10449" started-at="2018-04-23T13:00:10Z" finished-at="2018-04-23T13:00:20Z">
+  <suite name="Suite" duration-ms="10951" started-at="2018-04-23T13:01:39Z" finished-at="2018-04-23T13:01:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10449" started-at="2018-04-23T13:00:10Z" finished-at="2018-04-23T13:00:20Z">
+    <test name="Test" duration-ms="10951" started-at="2018-04-23T13:01:39Z" finished-at="2018-04-23T13:01:50Z">
       <class name="teste.Testar">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@6a2bcfcb]" name="setUp" is-config="true" duration-ms="3871" started-at="2018-04-23T10:00:10Z" finished-at="2018-04-23T10:00:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@42f30e0a]" name="setUp" is-config="true" duration-ms="4559" started-at="2018-04-23T10:01:39Z" finished-at="2018-04-23T10:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="teste01()[pri:0, instance:teste.Testar@6a2bcfcb]" name="teste01" duration-ms="1466" started-at="2018-04-23T10:00:14Z" finished-at="2018-04-23T10:00:15Z">
+        <test-method status="PASS" signature="teste01()[pri:0, instance:teste.Testar@42f30e0a]" name="teste01" duration-ms="1397" started-at="2018-04-23T10:01:44Z" finished-at="2018-04-23T10:01:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teste01 -->
-        <test-method status="FAIL" signature="teste02()[pri:0, instance:teste.Testar@6a2bcfcb]" name="teste02" duration-ms="1375" started-at="2018-04-23T10:00:15Z" finished-at="2018-04-23T10:00:16Z">
+        <test-method status="FAIL" signature="teste02()[pri:0, instance:teste.Testar@42f30e0a]" name="teste02" duration-ms="1345" started-at="2018-04-23T10:01:45Z" finished-at="2018-04-23T10:01:47Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -49,16 +49,15 @@
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
 	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teste02 -->
-        <test-method status="FAIL" signature="teste03()[pri:0, instance:teste.Testar@6a2bcfcb]" name="teste03" duration-ms="1352" started-at="2018-04-23T10:00:16Z" finished-at="2018-04-23T10:00:18Z">
+        <test-method status="FAIL" signature="teste03()[pri:0, instance:teste.Testar@42f30e0a]" name="teste03" duration-ms="1308" started-at="2018-04-23T10:01:47Z" finished-at="2018-04-23T10:01:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -92,20 +91,19 @@
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
 	at org.testng.TestNG.run(TestNG.java:1032)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teste03 -->
-        <test-method status="PASS" signature="after()[pri:0, instance:teste.Testar@6a2bcfcb]" name="after" is-config="true" duration-ms="2374" started-at="2018-04-23T10:00:18Z" finished-at="2018-04-23T10:00:20Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:teste.Testar@42f30e0a]" name="after" is-config="true" duration-ms="2331" started-at="2018-04-23T10:01:48Z" finished-at="2018-04-23T10:01:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- teste.Testar -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

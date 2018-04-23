@@ -7,8 +7,8 @@
         <methods>
           <include name="teste02"/>
           <include name="teste03"/>
-          <include name="teste01"/>
           <include name="setUp"/>
+          <include name="after"/>
         </methods>
       </class> <!-- teste.Testar -->
     </classes>
