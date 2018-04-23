@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7982" started-at="2018-04-23T11:55:08Z" finished-at="2018-04-23T11:55:16Z">
+  <suite name="Suite" duration-ms="2" started-at="2018-04-23T12:56:21Z" finished-at="2018-04-23T12:56:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7982" started-at="2018-04-23T11:55:08Z" finished-at="2018-04-23T11:55:16Z">
-      <class name="teste.Testar">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:teste.Testar@66d2e7d9]" name="setUp" is-config="true" duration-ms="3900" started-at="2018-04-23T08:55:08Z" finished-at="2018-04-23T08:55:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="teste01()[pri:0, instance:teste.Testar@66d2e7d9]" name="teste01" duration-ms="1441" started-at="2018-04-23T08:55:12Z" finished-at="2018-04-23T08:55:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teste01 -->
-        <test-method status="PASS" signature="teste02()[pri:0, instance:teste.Testar@66d2e7d9]" name="teste02" duration-ms="1313" started-at="2018-04-23T08:55:14Z" finished-at="2018-04-23T08:55:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teste02 -->
-        <test-method status="PASS" signature="teste03()[pri:0, instance:teste.Testar@66d2e7d9]" name="teste03" duration-ms="1318" started-at="2018-04-23T08:55:15Z" finished-at="2018-04-23T08:55:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teste03 -->
-      </class> <!-- teste.Testar -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Test" duration-ms="2" started-at="2018-04-23T12:56:21Z" finished-at="2018-04-23T12:56:21Z">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

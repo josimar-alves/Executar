@@ -1,13 +1,18 @@
 package teste;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+//import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+//import org.testng.annotations.BeforeTest;
+//import org.testng.annotations.Test;
 
 import testlink.api.java.client.TestLinkAPIException;
 import testlink.api.java.client.TestLinkAPIResults;
@@ -17,13 +22,18 @@ public class Testar {
 	private WebDriver driver;
 	private WebDriverWait wait;
 	
-	@BeforeTest
+	@Before
 	public void setUp() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:/chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		wait = new WebDriverWait(driver, 30);
 		driver.get("http://www.google.com/");
+	}
+	
+	@After
+	public void after() {
+		driver.close();
 	}
 	
 //	@Test
@@ -68,13 +78,13 @@ public class Testar {
 	
 	@Test
 	public void teste02() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		sendResult(n == 2, "tc-2", "Falhou 02");
 	}
 	
 	@Test
 	public void teste03() throws TestLinkAPIException {
-		int n = 2;
+		int n = 1;
 		sendResult(n == 2, "tc-3", "Falhou 03");
 	}
 	
@@ -84,6 +94,7 @@ public class Testar {
 		} else {
 			TestLinkConnection.updateResults(tcName, tcDesciption, TestLinkAPIResults.TEST_FAILED);
 		}
+		System.out.println("Aqui");
 		assertTrue(result);		
 	}
 		
